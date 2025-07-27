@@ -1,0 +1,320 @@
+body {
+    font-family: "Roboto", sans-serif;
+    ;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section{
+    padding: 120px 0;
+}
+
+/* #region header */
+
+
+.header-container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-nav{
+display: flex;
+flex-direction: row;
+gap: 76px;
+align-items: center;
+}
+
+.header-nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.logo-first{
+    color: #2e2f42;
+}
+
+.link-header{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+}
+
+.link-header:hover,
+.link-header:focus{
+    color: #404bbf
+}
+
+.address{
+    font-style: normal;
+}
+
+.address-list{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+}
+
+.link-address{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.link-address:hover,
+.link-address:focus{
+    color: #404bbf;
+}
+
+/* #endregion header */
+
+
+/* #region Effective Solutions for Your Business */
+
+.section-first{
+background: #2e2f42;
+}
+
+.main-title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        width: 496px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+}
+.main-title-button{
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+
+    background: #4d5ae5;
+    letter-spacing: 0.04em;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+    
+}
+.main-title-button:hover, 
+.main-title-button:focus{
+    background-color: #404BBF;
+}
+
+/* #endregion Effective Solutions for Your Business */
+
+/* #region benefits */
+
+.section-list{
+ display: flex;
+ justify-content: center;
+ gap: 24px;
+}
+
+.section-list-item{
+    width: calc((100% - 72px)/4);
+}
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    
+}
+
+.benefits-second-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.benefits-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* #endregion benefits */
+
+/* #region Our Team */
+
+.section-team{
+    background-color: #F4F4FD
+}
+
+.section-team-list{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.team-list{
+    background-color: #FFFFFF;
+    width: calc((100% - 72px)/4);
+    border-radius: 0 0 4px 4px;
+  
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.team-third-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    padding-top: 32px;
+}
+.team-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    padding-bottom: 32px;
+}
+
+/* #endregion Our Team */
+
+/* #region Our Portfolio */
+
+.portfolio-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-list-item{
+width: calc((100% - 48px)/3);
+}
+
+.portfolio-third-title{
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-paragraph{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* #endregion Our Portfolio */
+/* #region footer */
+.footer{
+    background: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.logo-second{
+    color: #f4f4fd
+}
+/* #endregion footer */
