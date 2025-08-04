@@ -321,11 +321,8 @@ img {
 }
 
 .team-ulist-item {
-  background-color: #4d5ae5;
-  border-radius: 50%;
   width: 40px;
   height: 40px;
-  padding: 12px;
 }
 
 .team-ulist-item:hover,
