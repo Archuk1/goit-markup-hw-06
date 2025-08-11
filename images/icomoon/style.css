@@ -14,3 +14,15 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+
+.icon-galochka {
+  width: 1.25em;
+}
+
+.icon-mail {
+  width: 1.3330078125em;
+}
+
+.icon-icon-send {
+  width: 1.2001953125em;
+}
